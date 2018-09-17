@@ -1,0 +1,27 @@
+
+<!-- <view class='container'>
+  <template name="mytemps">
+    <view>姓名：{{name}}</view>
+    <view>年龄：{{age}}</view>
+
+    <view>地址：{{address}}</view>
+    <view>备注：{{remark}}</view>
+    <view>msg：{{msg}}</view>
+  </template>
+
+  <template is="mytemps" data="{{...person,msg,name:'jojo',age:'18岁'}}"/>
+  <template is="mytemps" data="{{...person,msg,name:'jojo',age:'18岁'}}"/>
+  <template is="mytemps" data="{{...person,msg,name:'jojo',age:'18岁'}}"/>
+</view> -->
+
+<view class='category'>
+  <view class='category-title'>内部存储设备 ></view>
+    <template name = 'mytemplate'>
+      <image src='/category.jpg' ></image>
+      <view class='right'> > </view> 
+    </template>
+</view>
+
+
+
+

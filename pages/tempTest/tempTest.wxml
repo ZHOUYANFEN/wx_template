@@ -1,0 +1,6 @@
+
+<import src="../template/template.wxml" />
+<view  class='category-list' wx:for="{{array}}" wx:for-index="index" wx:for-item="itemName">
+  <template is="mytemplate" data="{{...array}}" />
+  {{itemName.num}}
+</view>

@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/template/template",
+    "pages/tempTest/tempTest",
+    "pages/test/test"  
+  ],
+  "tabBar": {
+    "selectedColor":"red",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tempTest/tempTest",
+        "text": "模板应用"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "慕课网"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "文件夹",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

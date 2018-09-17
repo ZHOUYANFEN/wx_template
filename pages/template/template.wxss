@@ -1,0 +1,22 @@
+.category-title{
+  margin-left: 40rpx;
+  font-size: 28rpx;
+  color: grey;
+  margin-bottom: 10rpx;
+}
+
+.category-list{
+  border-top: 1rpx solid lightgray;
+  padding-top: 15rpx;
+  margin-bottom: 15rpx;
+}
+image{
+  margin-left: 20rpx;
+  width: 54rpx;
+  height: 39rpx
+}
+.right{
+  float: right;
+  padding-right: 20rpx;
+  color: lightgray;
+}

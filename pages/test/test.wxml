@@ -1,0 +1,7 @@
+<!--pages/test/test.wxml-->
+<view class="container">
+  <text class='txt_top txt_css' style='color:{{color}}' bindtap='clickMe'>
+    {{mytxt}}
+  </text>
+</view>
+
